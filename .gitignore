@@ -10,3 +10,14 @@
 /extra/ssl/nginx*
 /traefik/certs/*
 /deploy/letsencrypt
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+.byebug_history
+coverage/*vendor/bundle
+coverage/
+
+# Ignore Claude Code local settings
+.claude/*
+CLAUDE.md
+
+.idea/
