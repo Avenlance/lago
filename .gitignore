@@ -21,3 +21,4 @@ coverage/
 CLAUDE.md
 
 .idea/
+/api/.env.development
