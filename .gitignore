@@ -16,9 +16,13 @@
 coverage/*vendor/bundle
 coverage/
 
-# Ignore Claude Code local settings
+# Ignore AI local settings
 .claude/*
 CLAUDE.md
+.gemini/*
+conductor/*
+GEMINI.md
+.geminiignore
 
 .idea/
 /api/.env.development
